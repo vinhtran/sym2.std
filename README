@@ -1,0 +1,11 @@
+**How to install the sub packages using composer**
+1. Dependency tools
+  + Git (sudo apt-get install git)
+  + Curl (sudo apt-get install curl)
+  + Composer
+  	sudo curl -s http://getcomposer.org/installer | php -- --install-dir=path/to/composer/install/dir
+2. Using composer to load sub modules/bundles
+	sudo php /path/to/composer/install/dir/composer.phar install --dev
+	(for more informatiion about using composer: php /path/to/composer/install/dir/composer.phar help)
+3. 	
+ 
